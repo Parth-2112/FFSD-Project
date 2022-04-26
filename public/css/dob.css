@@ -1,0 +1,94 @@
+.headline{
+    font-weight:normal ;
+    text-align: center;
+    font-size:40px;
+}
+
+.homestyle{
+    font-weight: normal;
+    padding-left: 20px;
+   
+}
+
+.dob{
+    margin-top:10%;
+}
+#home{
+    padding-left:20px;
+    text-decoration: none;
+    color:#000;
+    font-weight:normal;
+}
+.birth__birthInput__syT{
+    display: block;
+    width: 200px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(31, 38, 42);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+
+}
+.birth__birthForm__uv1 {
+    margin-top: 80px;
+    display: block;
+}
+.birth__birthInputWrapper__1k- {
+    width: 200px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgb(31, 38, 42);
+    margin: 0px auto;
+}
+
+.birth__submitButtonWrapper__I3J {
+    width: 150px;
+    margin: 80px auto 0px;
+}
+
+.solidButton__buttonWrapper__tkE {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 350px;
+}
+.birth__submitButtonWrapper__I3J .birth__submitButton__8gG {
+    width: 150px;
+    color: rgb(57, 66, 71);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(57, 66, 71);
+    border-image: initial;
+}
+.solidButton__button__15V {
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 100px;
+}
+.solidButton__button__15V.solidButton__disabled__15i {
+    background-color: rgb(174, 184, 189);
+    opacity: 0.4;
+    /* pointer-events: none; */
+    /* cursor: not-allowed; */
+}
+
+::placeholder {
+    color: rgb(166, 166, 173);
+    opacity: 0.3;
+}
+
+/* To remove arrows in input box  */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

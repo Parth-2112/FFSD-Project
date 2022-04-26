@@ -1,0 +1,138 @@
+#navbar {
+    display: none;
+  }
+  
+  #navbar-responsive {
+    position: fixed;
+    display: block;
+    z-index: 10;
+  }
+  
+  .opnbtn {
+    position: fixed;
+    right: 25px;
+    top: 25px;
+    /* padding: 5px 10px 10px 10px;  for autochanging name */
+    padding: 5px;
+    background-color: rgba(255, 253, 253, 0.73);
+    color: white;
+    z-index: 6;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .sidebar {
+    position: absolute;
+    height: 100vh;
+    width: 0vw;
+    font-size: 5vmin;
+    overflow-x: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    padding-top: 10vh;
+    transition: 0.3s;
+  }
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  .clsbtn {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 0px 17px 5px 17px;
+  }
+  
+  .opnbtn img {
+    width: 30px;
+    padding-bottom: 0px;
+  }
+  
+  .opnbtn span {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    /* left: 5px; */
+    font-size: 10px;
+    padding-top: 0px;
+    text-transform: uppercase;
+  }
+  .header-text {
+    top: 60vh;
+  }
+  .header-text h1,
+  .header-text h2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    animation: fadein-right 2s linear;
+    animation-delay: 0s;
+  }
+  .header-text .btn {
+    position: relative;
+    /* overflow: hidden; */
+    left: 50%;
+    transform: translateX(-50%);
+    animation: fadein-right-btn 2s linear;
+    animation-delay: 0s;
+  }
+  .header-text .btn:hover{
+    transform: translate(-50%, -3px);
+  }
+  
+  .header-img {
+    position: absolute;
+    right: 50%;
+    z-index: 1;
+    top: 30%;
+    transform: translate(50%, -50%);
+  }
+  
+  @keyframes fadein-right {
+    from {
+      opacity: 0;
+      left: -200px;
+    }
+    to {
+      opacity: 1;
+      left: 0;
+    }
+  }
+  @keyframes fadein-right-btn {
+    from {
+      opacity: 0;
+      left: -200px;
+    }
+    to {
+      opacity: 1;
+      text-align: center;
+    }
+  }
+  
+  .foot-graphic{
+    width: 250px;
+    height: auto;
+    opacity: 0.3;
+  }
+  .about-graphic{
+    top: 10%;
+    height: auto;
+    width: 70%;
+  }
+  .SignUp-graphic2{
+    height: auto;
+    width: 70%;
+    bottom: 10%;
+  }
+  .Member-graphic{
+    display: none;
+  }
+  .login-graphic{
+    /* transform: translateX(-50%); */
+    width: 70vw;
+    height: auto;
+  }

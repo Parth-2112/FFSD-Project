@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>signup form</title>
+  <link rel="stylesheet" href="/css/signup.css">
+</head>
+
+<body>
+  <form action="/main" method="POST" name="signup">
+    <div class='bold-line'></div>
+    <div class='container'>
+      <div class='window'>
+        <div class='overlay'></div>
+        <div class='content'>
+          <div class='welcome'>Hello There!</div>
+          <div class='subtitle'>We're almost done. Before using our services you need to create an account.</div>
+          <div class='input-fields'>
+
+            <!-- <input type='text' placeholder='name' class='input-line full-width' name="name"></input>  -->
+            <input type='text' placeholder='Username' class='input-line full-width' name="uid"></input>
+            <input type='email' placeholder='Email' class='input-line full-width' name="eid"></input>
+            <input type='password' placeholder='Password' class='input-line full-width' name="pwd"></input>
+            <input type="text" placeholder='Gender' class='input-line full-width' name = "gwd"></input>
+            <input type="text" placeholder='DateofBirth' class='input-line full-width' name = "dwd"></input>
+            <select name="iid" class='input-line full-width' id="">
+              <option value="NA">Select interest</option>
+              <option value="Music">Music</option>
+              <option value="Memes">Memes</option>
+              <option value="Sports">Sports</option>
+            </select>
+
+          </div>
+          <div class='spacing'>or continue with <span class='highlight'>Facebook</span></div>
+          <div><button class='ghost-round full-width' id="submit">
+              Create Account</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <!-- <script src="/css/signupvalidation.js"></script> -->
+</body>
+
+</html>

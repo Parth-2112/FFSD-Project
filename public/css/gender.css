@@ -1,0 +1,45 @@
+ .headline{
+    text-align: center;
+    padding-top:200px;
+    font-weight:normal;
+    font-size:40px;
+}
+
+.homestyle{
+    font-weight: normal;
+    padding-left: 20px;
+}
+#alignments{
+    padding-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none !important;
+
+}
+.cat{
+    text-decoration: none;
+    color: #000;
+    font-weight: normal;
+}
+
+.cat:hover,a.active{
+    font-weight: bold;
+}
+/* 
+body{
+    background-color: #5b6467;
+background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+} */
+
+.Gender{
+    margin-bottom: 10%;
+}
+#home{
+    padding-left:20px;
+    text-decoration: none;
+    color:#000;
+    font-weight:normal;
+}
